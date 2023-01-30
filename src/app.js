@@ -3,8 +3,6 @@ import express, { json } from 'express'
 import employeesRoutes from './routes/employees.routes.js'
 import indexRoutes from './routes/index.routes.js'
 
-import { PORT } from './config.js'
-
 //2. guardamos en una constante el servicio de express
 const app = express()
 
