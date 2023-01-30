@@ -1,0 +1,23 @@
+###
+GET http://localhost:3000/api/employees HTTP/1.1
+
+###
+POST http://localhost:3000/api/employees HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "Rosalba",
+    "salary": 4000
+}
+
+###
+DELETE http://localhost:3000/api/employees/8 HTTP/1.1
+
+###
+PATCH  http://localhost:3000/api/employees/9 HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "Elba",
+    "salary": 4000
+}
