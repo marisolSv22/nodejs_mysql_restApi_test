@@ -38,7 +38,7 @@ export const createEmployees = async (req, res) => {
     })
     } catch (error) {
         return res.status(500).json({
-            message: 'Somethin goes wrong'
+            message: 'Something goes wrong'
        }) 
     }
 }
