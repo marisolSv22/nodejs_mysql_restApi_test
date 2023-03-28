@@ -7,6 +7,6 @@ CREATE TABLE employees (
     name VARCHAR(45) DEFAULT NULL,
     salary INT(5) DEFAULT NULL,
     PRIMARY KEY (id)
-)
+);
 
-DESCRIBE employees;
+SELECT * FROM employees order by name asc;
